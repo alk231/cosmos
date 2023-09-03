@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+</head>
+<body>
+<div class="scroll-bar"></div>
+<div class="container3">
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="agni3.jpeg"></div>
+        <div class="swiper-slide"><img src="agni4.jpeg"></div>
+        <div class="swiper-slide"><img src="agni5.jpeg"></div>
+        <div class="swiper-slide"><img src="agni6.jpeg"></div>
+        <div class="swiper-slide"><img src="agni7.jpeg"></div>
+        <div class="swiper-slide"><img src="agni8.jpeg"></div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+    
+
+</div>
+<div class="info">
+  
+
+The arrival of PSLV in 1990s became a major boost for the Indian space programme. With the exception of its first flight in 1994 and two partial failures later, PSLV had a streak of more than 50 successful flights. PSLV enabled India to launch all of its low Earth orbit satellites, small payloads to GTO and hundreds of foreign satellites.[31] Along with the PSLV flights, development of a new rocket, a Geosynchronous Satellite Launch Vehicle (GSLV) was going on. India tried to obtain upper-stage cryogenic engines from Russia's Glavkosmos but was blocked by the US from doing so. As a result, KVD-1 engines were imported from Russia under a new agreement which had limited success[32] and a project to develop indigenous cryogenic technology was launched in 1994, taking two decades to reach fulfillment.[33] A new agreement was signed with Russia for seven KVD-1 cryogenic stages and a ground mock-up stage with no technology transfer, instead of five cryogenic stages along with the technology and design in the earlier agreement.[34] These engines were used for the initial flights and were named GSLV Mk.1.[35] ISRO was under US government sanctions between 6 May 1992 to 6 May 1994.[36] After the United States refused to help India with Global Positioning System (GPS) technology during the Kargil war, ISRO was prompted to develop its own satellite navigation system IRNSS which it is now expanding further.[37] 
+</div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script>
+   const swiper = new Swiper('.swiper', {
+    autoplay:{
+        delay:3000,
+        disableOnInteraction:false,
+    },
+  loop: true,
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable:true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  
+
+});
+ 
+</script>
+</body>
+</html>

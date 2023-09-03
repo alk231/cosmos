@@ -1,0 +1,197 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:"Roboto", sans-serif;
+}
+.container
+{
+   width:100vw;
+   height:100vh;
+   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(backgrimg.jpeg);
+   background-position:center;
+   background-size:cover;
+   padding-left:8%;
+   padding-right:8%;
+   box-sizing:border-box;
+   
+}
+
+.navbar{
+    height:12%;
+    display:flex;
+    align-items:flex-end;
+    justify-content: space-around;
+}
+
+
+nav ul li{
+    list-style:none;
+    display:inline-block;
+    margin-left:60px;
+}
+
+.row
+{
+   display: flex;
+   height:88%;
+   align-items:center;
+}
+.col
+{
+    flex-basis:50%;
+}
+h1{
+    color:#fff;
+    font-size:100px;
+}
+p{
+    color:#fff;
+    font-size:11px;
+    line-height:15px;
+}
+button{
+    width:180px;
+    color:#888d7e;
+    font-size:14px;
+    padding:12px 0;
+    background-color: gold;
+    border:0;
+    border-radius:20px;
+    outline:none;
+    margin-top:30px;
+}
+
+.card
+{
+    width:200px;
+    height:230px;
+    display:inline-block;
+    border-radius:10px;
+    padding:10px 5px;
+    box-sizing:content-box;
+    cursor:pointer;
+    margin-top:10px;
+    margin-bottom:20px;
+    margin-left:10px;
+    margin-right:10px;
+    background-position:center;
+    transition:transform 0.5s;
+}
+.card1 
+{
+   background-image: url(agni2.jpeg); 
+   font-size:20px;
+   font-family:"Roboto";
+   text-decoration: solid;
+}
+.card1 p{
+    color:rgb(162, 29, 45);
+}
+
+.card2
+{
+    background-image: url(agni9.jpeg);
+    font-size:20px;
+
+p{
+    font-size:10px;
+}
+}
+
+.card3
+{
+    background-image: url(agni10.jpeg);
+    font-size:20px;
+
+p{
+    font-size:10px;
+}
+}
+.card4
+{
+    background-image: url(agni11.jpeg);
+    
+}
+.card:hover{
+    transform:translateY(-10px);
+}
+h4{
+    color:#fff;
+    text-shadow:0 0 5px #999;
+}
+h3{
+    color:#fff;
+    text-shadow:0 0 5px #999;
+}
+.card p{
+    text-shadow:0 0 15px #000;
+    font-size:8px;
+}
+@media only screen and (max-width: 1000px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.project-image {
+    margin-top: 25px;
+    width: 250px;
+    border-radius: 125px;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #ef744b;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.hamburger {
+    display: none;
+}
+
+.hamburger:focus{
+    outline: 0;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .hamburger {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        margin: 20px;
+        align-self: flex-end;
+    }
+
+    ul {
+        display: none;
+        background-color: #2b2c38;
+        margin: 0ppx;
+    }
+
+    ul.show {
+        display: block;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #2b2c38;
+    }
+
+    .logo {
+        display: none;
+    }
+}

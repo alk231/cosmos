@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style4.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+</head>
+<body>
+<div class="scroll-bar"></div>
+<div class="container4">
+    <div class="swiper">
+        
+        <div class="swiper-wrapper">
+        
+        <div class="swiper-slide"><img src="chandrayaan3.jpeg"></div>
+        <div class="swiper-slide"><img src="chandrayaan1.jpeg"></div>
+        <div class="swiper-slide"><img src="mangalyaan4.jpeg"></div>
+        <div class="swiper-slide"><img src="mangalyaan5.jpeg"></div>
+        <div class="swiper-slide"><img src="mangalyaan3.jpeg"></div>
+        <div class="swiper-slide"><img src="agni8.jpeg"></div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+    
+
+</div>
+<div class="info">
+  In 2003, when China sent humans into space, Prime Minister Atal Bihari Vajpayee urged scientists to develop technologies to land humans on the Moon[38] and programmes for lunar, planetary and crewed missions were started. ISRO launched Chandrayaan-1 in 2008, purportedly the first probe to verify the presence of water on the Moon,[39] and the Mars Orbiter Mission in 2013, the first Asian spacecraft to enter Martian orbit, making India the first country to succeed at this on its first attempt.[40] Subsequently, the cryogenic upper stage for GSLV rocket became operational, making India the sixth country to have full launch capabilities.[41] A new heavier-lift launcher LVM3 was introduced in 2014 for heavier satellites and future human space missions.[42]
+
+On 23 August 2023, India achieved its first soft landing on an extraterrestrial body and became the first nation to successfully land a spacecraft near the lunar south pole with ISRO's Chandrayaan-3, the third Moon mission.[43][44] Indian moon mission, Chandrayaan-3 (translated as "mooncraft" in English), saw the successful soft landing of its Vikram lander at 6.04pm IST (1234 GMT) near the little-explored region of the Moon in a world's first for any space programme.[45] 
+</div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script>
+   const swiper = new Swiper('.swiper', {
+    autoplay:{
+        delay:3000,
+        disableOnInteraction:false,
+    },
+  loop: true,
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable:true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  
+
+});
+ 
+</script>
+</body>
+</html>
